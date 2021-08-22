@@ -9,7 +9,7 @@ This is a work in progress.
 From the directory above this one, run:
 
 ```bash
-rsync -avP --exclude=.git Adafruit_Macropad_Hotkeys/ /media/mathias/CIRCUITPY/
+rsync -rvP --exclude=.git --exclude=#* --exclude=.#* Adafruit_Macropad_Hotkeys/ /media/mathias/CIRCUITPY/
 ```
 
 The directory names for where the disk is mounted may need to be changed depending on machine.
