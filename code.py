@@ -51,7 +51,7 @@ class App:
 
 macropad = MacroPad()
 macropad.display.auto_refresh = False
-macropad.display.brightness = 0.4 # Later make this dynamic
+macropad.display.brightness = 0.5 # Later make this dynamic
 macropad.pixels.auto_write = False
 macropad.pixels.brightness = 0.5
 
